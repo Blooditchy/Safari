@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster&amp;amp;subset=cyrillic" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"/>
+    <link rel="stylesheet" href="./static/css/normalize.css"/>
+    <link rel="stylesheet" href="./static/css/main.css"/>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="section hero">
+        <div class="container">
+          <header class="header">
+            <div class="header-logo"><span class="header-logo__text header-logo__text-big">Safari Tour</span><span class="header-logo__text header-logo__text-small">International Tour packages</span></div>
+            <div class="header-nav">
+              <nav class="nav">
+                <ul class="nav__list">
+                  <li class="nav__item"><a class="nav__link" href="javascript:void(0)">Home </a></li>
+                  <li class="nav__item"><a class="nav__link" href="javascript:void(0)">Packages</a></li>
+                  <li class="nav__item"><a class="nav__link" href="javascript:void(0)">Flights</a></li>
+                  <li class="nav__item"><a class="nav__link" href="javascript:void(0)">Trains</a></li>
+                  <li class="nav__item"><a class="nav__link" href="javascript:void(0)">Reach us</a></li>
+                </ul>
+              </nav>
+            </div>
+          </header>
+          <div class="hero-top">
+            <div class="slider">
+              <div class="slider__prev"></div>
+              <div class="slider__next"></div>
+              <ul class="slider__list">
+                <li class="slider__item"><img class="slider__pic" src="./static/img/content/slider/plane-cloud.png" alt="самолет"/>
+                  <div class="slider__descr"> 
+                    <div class="slider-title">Singapure</div><span class="slider__text">Malaysia Singapore Super Saver Summer 2011</span>
+                  </div>
+                </li>
+                <li class="slider__item"><img class="slider__pic" src="./static/img/content/slider/plane-cloud.png" alt="самолет"/>
+                  <div class="slider__descr"> 
+                    <div class="slider-title">Singapure</div><span class="slider__text">Malaysia Singapore Super Saver Summer 2011</span>
+                  </div>
+                </li>
+                <li class="slider__item"><img class="slider__pic" src="./static/img/content/slider/plane-cloud.png" alt="самолет"/>
+                  <div class="slider__descr"> 
+                    <div class="slider-title">Singapure</div><span class="slider__text">Malaysia Singapore Super Saver Summer 2011</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <form class="hero-form" action="server.php" method="post">
+              <div class="hero-form__title"> <span>Online Booking</span></div>
+              <div class="form-row">
+                <label class="form-block"> 
+                  <div class="form-block__title">Name :</div>
+                  <input class="form__input" type="text" name="user-name" placeholder="name"/>
+                </label>
+              </div>
+              <div class="form-row">
+                <label class="form-block"> 
+                  <div class="form-block__title">email :</div>
+                  <input class="form__input" type="email" name="email" placeholder="email"/>
+                </label>
+              </div>
+              <div class="form-row">
+                <label class="form-block"> 
+                  <div class="form-block__title">Package :</div>
+                  <select class="form__input" name="">
+                    <option value="Africa Package">Africa Package</option>
+                    <option value="Africa Package" selected="selected">Package Bung</option>
+                    <option value="Africa Package">Africa Package</option>
+                    <option value="Africa Package">Africa Package</option>
+                  </select>
+                </label>
+              </div>
+              <div class="form-row">
+                <label class="form-block">
+                  <div class="form-block__title">message :</div>
+                  <textarea class="form__message" name="msg"></textarea>
+                </label>
+              </div>
+              <div class="form-row">
+                <button class="btn" type="submit">Submit</button>
+              </div>
+            </form>
+          </div>
+          <div class="hero-content">
+            <div class="hero-content__left">
+              <ul class="offers-list">
+                <div class="offers-list-title">Our special offers</div>
+                <li class="offers-list__item">
+                  <div class="offers-list__image"><img class="offers-list__pic" src="./static/img/content/offers/place.jpg" alt=""/></div>
+                  <div class="offers-list__descr">
+                    <div class="offers-list__title">
+                       1914 translation </div>
+                    <div class="offers-list__text">
+                      <p> But I must explain to you how all this mistaken idea of denouncing</p>
+                    </div>
+                    <div class="offers-list__price"> <span>700$</span><a class="btn offers-list__btn" href="">Read more</a></div>
+                  </div>
+                </li>
+                <li class="offers-list__item">
+                  <div class="offers-list__image"><img class="offers-list__pic" src="./static/img/content/offers/place.jpg" alt=""/></div>
+                  <div class="offers-list__descr">
+                    <div class="offers-list__title">
+                       1914 translation </div>
+                    <div class="offers-list__text">
+                      <p> But I must explain to you how all this mistaken idea of denouncing</p>
+                    </div>
+                    <div class="offers-list__price"> <span>700$</span><a class="btn offers-list__btn" href="">Read more</a></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="hero-content__right">
+              <table>
+                <div class="table-title">
+                  <div class="table-title__decor-yellow"> <span class="sup-text">Special </span><span class="sub-text">Summer</span></div>
+                  <div class="table-title__decor-blue"> <span>Offers</span></div>
+                  <button class="table__btn table__btn_active" type="button">Tours</button>
+                  <button class="table__btn" type="button">Photos</button>
+                </div>
+                <tbody>
+                  <tr>
+                    <td><img src="./static/img/icons/arrow.png" alt=""/></td>
+                    <td>Lorem Ipsum is simply dummy text simply </td>
+                    <td>10 Days</td>
+                    <td><a href="">more details</a></td>
+                  </tr>
+                  <tr>
+                    <td><img src="./static/img/icons/arrow.png" alt=""/></td>
+                    <td>Lorem Ipsum is simply dummy text simply </td>
+                    <td>10 Days</td>
+                    <td><a href="">more details</a></td>
+                  </tr>
+                  <tr>
+                    <td><img src="./static/img/icons/arrow.png" alt=""/></td>
+                    <td>Lorem Ipsum is simply dummy text simply </td>
+                    <td>10 Days</td>
+                    <td><a href="">more details</a></td>
+                  </tr>
+                  <tr>
+                    <td><img src="./static/img/icons/arrow.png" alt=""/></td>
+                    <td>Lorem Ipsum is simply dummy text simply </td>
+                    <td>10 Days</td>
+                    <td><a href="">more details</a></td>
+                  </tr>
+                  <tr>
+                    <td><img src="./static/img/icons/arrow.png" alt=""/></td>
+                    <td>Lorem Ipsum is simply dummy text simply </td>
+                    <td>10 Days</td>
+                    <td><a href="">more details</a></td>
+                  </tr>
+                  <tr>
+                    <td><img src="./static/img/icons/arrow.png" alt=""/></td>
+                    <td>Lorem Ipsum is simply dummy text simply </td>
+                    <td>10 Days</td>
+                    <td><a href="">more details</a></td>
+                  </tr>
+                  <tr>
+                    <td><img src="./static/img/icons/arrow.png" alt=""/></td>
+                    <td>Lorem Ipsum is simply dummy text simply </td>
+                    <td>10 Days</td>
+                    <td><a href="">more details</a></td>
+                  </tr>
+                  <tr>
+                    <td><img src="./static/img/icons/arrow.png" alt=""/></td>
+                    <td>Lorem Ipsum is simply dummy text simply </td>
+                    <td>10 Days</td>
+                    <td><a href="">more details</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section map">
+        <div class="container">
+          <div class="map-title">
+            <h2>Find Tourist Spots by Map</h2><span>Click on map</span>
+          </div>
+          <div class="map-info">
+            <ul class="map-info__list">
+              <li class="map-info__item">
+                <div class="map-info__img"><img class="map-info__pic" src="./static/img/content/offers/place.jpg" alt="Место"/></div>
+                <div class="map-info__descr">
+                  <div class="map-info__title">1914 translation  </div>
+                  <div class="map-info__text">
+                    <p> But I must explain to you how all this </p>
+                  </div>
+                </div>
+              </li>
+              <li class="map-info__item">
+                <div class="map-info__img"><img class="map-info__pic" src="./static/img/content/offers/place.jpg" alt="Место"/></div>
+                <div class="map-info__descr">
+                  <div class="map-info__title">1914 translation  </div>
+                  <div class="map-info__text">
+                    <p> But I must explain to you how all this </p>
+                  </div>
+                </div>
+              </li>
+              <li class="map-info__item">
+                <div class="map-info__img"><img class="map-info__pic" src="./static/img/content/offers/place.jpg" alt="Место"/></div>
+                <div class="map-info__descr">
+                  <div class="map-info__title">1914 translation  </div>
+                  <div class="map-info__text">
+                    <p> But I must explain to you how all this </p>
+                  </div>
+                </div>
+              </li>
+              <li class="map-info__item">
+                <div class="map-info__img"><img class="map-info__pic" src="./static/img/content/offers/place.jpg" alt="Место"/></div>
+                <div class="map-info__descr">
+                  <div class="map-info__title">1914 translation  </div>
+                  <div class="map-info__text">
+                    <p> But I must explain to you how all this </p>
+                  </div>
+                </div>
+              </li>
+              <li class="map-info__item">
+                <div class="map-info__img"><img class="map-info__pic" src="./static/img/content/offers/place.jpg" alt="Место"/></div>
+                <div class="map-info__descr">
+                  <div class="map-info__title">1914 translation  </div>
+                  <div class="map-info__text">
+                    <p> But I must explain to you how all this </p>
+                  </div>
+                </div>
+              </li>
+              <li class="map-info__item">
+                <div class="map-info__img"><img class="map-info__pic" src="./static/img/content/offers/place.jpg" alt="Место"/></div>
+                <div class="map-info__descr">
+                  <div class="map-info__title">1914 translation  </div>
+                  <div class="map-info__text">
+                    <p> But I must explain to you how all this </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="map-info__sub-text">Africa Tourism</div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="footer-social">
+              <div class="footer-social__news">
+                <div class="footer-title">News letter</div>
+                <form class="social-form" action="" method="get">
+                  <input class="footer-form__input" type="text" placeholder="enter email address"/>
+                  <input class="btn btn_footer" type="submit" value="Subscribe"/>
+                </form>
+              </div>
+              <div class="footer-social__media">
+                <div class="footer-title">Social media</div>
+                <ul class="footer-social__list">
+                  <li class="footer-social__item"><a class="footer-social__link footer-social__link_tw" href="">Twitter</a></li>
+                  <li class="footer-social__item"><a class="footer-social__link footer-social__link_fb" href="">Facebook</a></li>
+                  <li class="footer-social__item"><a class="footer-social__link footer-social__link_in" href="">Linkedin</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-contacts"> 
+              <div class="footer-title">Contacts us </div>
+              <div class="footer-contacts__descr">
+                <p> Lorem Ipsum is simply dummy    </p>
+                <p> Printing and typesetting</p>
+              </div>
+              <div class="footer-contacts__table">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>Phone :</td>
+                      <td>+97 -9945512832, 55418745</td>
+                    </tr>
+                    <tr>
+                      <td>email :</td>
+                      <td>mail@yourdomain.com</td>
+                    </tr>
+                    <tr>
+                      <td>:</td>
+                      <td>Info@yourdomain.com</td>
+                    </tr>
+                    <tr>
+                      <td>fax :</td>
+                      <td>1447854, 5564215, 55428</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="footer-form">
+              <div class="footer-title">Contact form</div>
+              <form class="form-contact" action="">
+                <div class="form-contact__row">
+                  <input class="footer-form__input" type="text" placeholder="name" required="required"/>
+                </div>
+                <div class="form-contact__row">
+                  <input class="footer-form__input" type="email" placeholder="email adress" required="required"/>
+                </div>
+                <div class="form-contact__row">
+                  <input class="footer-form__input" type="phone" placeholder="phone" required="required"/>
+                </div>
+                <div class="form-contact__row">
+                  <textarea class="form-contact__msg" name="" placeholder="message"></textarea>
+                </div>
+                <div class="form-contact__row">
+                  <input class="btn btn_footer" type="submit" value="Submit"/>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="footer-copyright__left">
+              <p>Copyright 2013 cssauthor.com, All Rights Reserved </p>
+            </div>
+            <div class="footer-copyright__right">
+              <p>Designed and Developed By cssauthor.com </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="./static/js/main.js"></script>
+  </body>
+</html>
